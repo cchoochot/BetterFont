@@ -11,7 +11,12 @@
 	};
 
 	var processFunc = function () {
-		addFontFunc('Arial', 'Roboto-Regular.ttf');
+		//addFontFunc('Arial', 'Roboto-Regular.ttf');
+		addFontFunc('Arial', 'LiberationSans-Regular.ttf');
+
+		addFontFunc('Verdana', 'DejaVuSans.ttf');
+		addFontFunc('Tahoma', 'DejaVuSans.ttf');
+
 		addFontFunc('Helvetica', 'texgyreheros-regular.woff');
 		addFontFunc('Helvetica Neue', 'texgyreheros-regular.woff');
 
@@ -24,3 +29,10 @@
 		processFunc();
 	}
 }(document));
+
+/*
+Verdana		=> DejaVu Sans
+Tahoma		=> DejaVu Sans
+Arial		=> Liberation Sans
+Helvetica	=> Tex Gyre Heros // FreeSans
+*/
