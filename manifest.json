@@ -1,5 +1,6 @@
 {
 	"name": "Better Font",
+	"short_name": "Better Font",
 	"version": "1.0.0",
 	"manifest_version": 2,
 	"description": "This extension will try to substitute MacOSX fonts with better ones defaulted by Windows.",
