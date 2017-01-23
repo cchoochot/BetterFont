@@ -11,7 +11,6 @@
 	};
 
 	var processFunc = function () {
-		//addFontFunc('Arial', 'Roboto-Regular.ttf');
 		addFontFunc('Arial', 'LiberationSans-Regular.ttf');
 
 		addFontFunc('Verdana', 'DejaVuSans.ttf');
