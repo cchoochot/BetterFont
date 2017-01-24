@@ -1,9 +1,9 @@
 {
-	"name": "Better Font",
+	"name": "Better Font on Windows",
 	"short_name": "Better Font",
 	"version": "1.0.0",
 	"manifest_version": 2,
-	"description": "This extension will try to substitute MacOSX fonts with better ones defaulted by Windows.",
+	"description": "Improve websites appearance on Windows with better Mac-only fonts replacement.",
 	"homepage_url": "https://github.com/boltzbo/BetterFont",
 	"web_accessible_resources": [
 		"fonts/*.*"
