@@ -2,6 +2,10 @@
 (function (document) {
 	'use strict';
 
+	if ("Win32" !== navigator.platform) {
+		return false;
+	}
+
 	var baseurl = chrome.extension.getURL('/fonts/');
 
 	var addFontFunc = function (face, fontfile) {
@@ -24,14 +28,12 @@
 		});
 	};
 
-	if ("Win32" === navigator.platform) {
-		processFunc();
-	}
+	processFunc();
 }(document));
 
 /*
 Verdana		=> DejaVu Sans
 Tahoma		=> DejaVu Sans
 Arial		=> Liberation Sans
-Helvetica	=> Tex Gyre Heros // FreeSans
+Helvetica	=> Tex Gyre Heros
 */
