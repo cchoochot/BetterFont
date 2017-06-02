@@ -1,10 +1,10 @@
 {
 	"name": "Better Font on Windows",
 	"short_name": "Better Font",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"manifest_version": 2,
 	"description": "Improve websites appearance on Windows with better fonts replacement.",
-	"homepage_url": "https://github.com/boltzbo/BetterFont",
+	"homepage_url": "https://github.com/cchoochot/BetterFont",
 	"web_accessible_resources": [
 		"fonts/*.*"
 	],
@@ -22,8 +22,8 @@
 			"matches": [
 				"<all_urls>"
 			],
-			"js": [
-				"src/inject.js"
+			"css": [
+				"src/style.css"
 			]
 		}
 	]
