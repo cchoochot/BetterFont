@@ -1,22 +1,22 @@
 @font-face {
 	font-family: Arial;
 	src:
-		local('LiberationSans-Regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/LiberationSans-Regular.ttf');
+		local('texgyreheros-regular'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
 }
 
 @font-face {
 	font-family: Verdana;
 	src: 
-		local('DejaVuSans'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/DejaVuSans.ttf');
+		local('texgyreheros-regular'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
 }
 
 @font-face {
 	font-family: Tahoma;
 	src:
-		local('DejaVuSans'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/DejaVuSans.ttf');
+		local('texgyreheros-regular'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
 }
 
 @font-face {
@@ -28,6 +28,20 @@
 
 @font-face {
 	font-family: Helvetica Neue;
+	src:
+		local('texgyreheros-regular'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+}
+
+@font-face {
+	font-family: -apple-system;
+	src:
+		local('texgyreheros-regular'),
+		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+}
+
+@font-face {
+	font-family: sans-serif;
 	src:
 		local('texgyreheros-regular'),
 		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
