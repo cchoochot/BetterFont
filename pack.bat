@@ -1,1 +1,1 @@
-zip -r app.zip . -x .git *.bat
+zip -r app.zip . -x .git *.yml *.bat

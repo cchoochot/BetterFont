@@ -1,10 +1,10 @@
 {
-	"name": "Better Font on Windows",
+	"name": "Better Font",
 	"short_name": "Better Font",
-	"version": "4.0.0",
+	"version": "5.0.0",
 	"manifest_version": 2,
-	"description": "Improve websites appearance on Windows with better fonts replacement.",
-	"homepage_url": "https://github.com/cchoochot/BetterFont",
+	"description": "Improve websites appearance on Google Chome with better fonts replacement.",
+	"homepage_url": "https://cchoochot.github.io/BetterFont/",
 	"web_accessible_resources": [
 		"fonts/*.*"
 	],
